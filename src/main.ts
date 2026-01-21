@@ -1,4 +1,3 @@
-
 import { NestFactory } from '@nestjs/core';
 import { FastifyAdapter, type NestFastifyApplication } from '@nestjs/platform-fastify';
 import AppModule from './AppModule';
@@ -14,8 +13,6 @@ async function bootstrap() {
   // Start HTTP server first
   await app.listen(process.env.PORT ?? 4000, '0.0.0.0');
   console.log(`Application is running on: ${await app.getUrl()}`);
-
-  
 
   // Launch Telegram bot asynchronously (polling)
   const botService = app.get(LinearTrackerBot); // get DI instance
@@ -51,4 +48,3 @@ bootstrap().catch((error) => {
   console.error('Bootstrap failed', error);
   process.exit(1);
 });
-// force redeploy Thu Jan  8 18:24:16 CET 2026
