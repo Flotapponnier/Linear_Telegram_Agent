@@ -1,10 +1,24 @@
 {
-  "name": "linear-bot",
-  "version": "0.0.1",
-  "description": "",
-  "author": "",
-  "private": true,
-  "license": "UNLICENSED",
+  "name": "linear-telegram-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot for seamless ticket management in Linear. Create, edit, assign, and track tickets directly from Telegram with AI-powered natural language processing.",
+  "author": "Florent Tapponnier",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Flotapponnier/Linear---Telegram-Agent-.git"
+  },
+  "keywords": [
+    "linear",
+    "telegram",
+    "bot",
+    "ticket",
+    "issue-tracker",
+    "ai",
+    "openai",
+    "nestjs"
+  ],
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
