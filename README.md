@@ -206,6 +206,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Telegram integration via [Telegraf](https://telegraf.js.org/)
 - AI powered by [OpenAI](https://openai.com/)
 
----
-
-Made with ❤️ by [Florent Tapponnier](https://github.com/Flotapponnier)

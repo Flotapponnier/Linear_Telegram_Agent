@@ -2,7 +2,7 @@
   "name": "linear-telegram-bot",
   "version": "1.0.0",
   "description": "A Telegram bot for seamless ticket management in Linear. Create, edit, assign, and track tickets directly from Telegram with AI-powered natural language processing.",
-  "author": "Florent Tapponnier",
+  "author": "",
   "private": false,
   "license": "MIT",
   "repository": {
